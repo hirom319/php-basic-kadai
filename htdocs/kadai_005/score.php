@@ -14,7 +14,6 @@ $total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $
 $count = 10;
 $average = $total / $count;
 
-echo "合計点：", $total;
+echo "合計点：", $total . "<br>";
 echo "平均点：", $average;
-
 ?>
