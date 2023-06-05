@@ -53,9 +53,7 @@
         }
 
         $animal = new Animal('dog', 60, 5000);
-
         print_r($animal);
-
         ?>
     </p>
 
