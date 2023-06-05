@@ -15,6 +15,8 @@
         <input type="radio" id="gender"><br>
         <label for="email">メールアドレス</label>
         <input type="text" id="email"><br>
+        <label for="submit">送信</label>
+        <input type="submit" value="送信"><br>
     </form>
 </body>
 
