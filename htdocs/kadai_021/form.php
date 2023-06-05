@@ -16,8 +16,8 @@
             </tr>
             <tr>
                 <td>性別</td>
-                <td><input type="radio" name="gender" value="male">男性
-                    <input type="radio" name="gender" value="female">女性
+                <td><input type="radio" name="gender" value="男性">男性
+                    <input type="radio" name="gender" value="女性">女性
                 </td>
             </tr>
             <tr>
