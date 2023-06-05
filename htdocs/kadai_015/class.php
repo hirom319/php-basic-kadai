@@ -10,7 +10,7 @@ class Food {
 }
 
 $food = new Food('potato', 250);
-print_r($food);
+print_r($food) . '<br>';
 
 class Animal {
     private $name;
