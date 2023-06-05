@@ -23,7 +23,7 @@
 
         $food = new Food('potato', 250);
         print_r($food);
-
+        echo $price->price;
         ?>
     </p>
 
@@ -45,13 +45,9 @@
 
         $animal = new Animal('dog', 60, 5000);
         print_r($animal);
-
+        echo $weight->weight;
         ?>
     </p>
-        <?php
-            echo $price->price;
-            echo $weight->weight;
-        ?>
 
 </body>
 
