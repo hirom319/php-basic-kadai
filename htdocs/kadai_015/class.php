@@ -48,6 +48,11 @@
 
         ?>
     </p>
+        <?php
+            echo $price->price;
+            echo $weight->weight;
+        ?>
+
 </body>
 
 </html>
