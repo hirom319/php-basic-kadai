@@ -19,13 +19,15 @@
                 $this->name = $name;
                 $this->price = $price;
             }
+
+            public function getPrice()
+            {
+                return $this->price;
+            }
         }
 
         $food = new Food('potato', 250);
         print_r($food);
-
-
-
         ?>
     </p>
 
@@ -43,23 +45,26 @@
                 $this->height = $height;
                 $this->weight = $weight;
             }
+
+            public function getHeight()
+            {
+                return $this->height;
+            }
         }
 
         $animal = new Animal('dog', 60, 5000);
+
         print_r($animal);
 
         ?>
     </p>
 
+
     <?php
-
-    $price->price = 250;
-    echo $price->price;
-
-    $height->height = 60;
-    echo $weight->weight;
-
+    echo $food->getPrice();
+    echo $animal->getheight();
     ?>
+
 
 </body>
 
