@@ -21,10 +21,10 @@
             }
         }
 
-        ?>
-
         $food = new Food('potato', 250);
         print_r($food);
+
+        ?>
     </p>
 
     <p>
