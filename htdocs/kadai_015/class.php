@@ -61,11 +61,11 @@
 
     <p>
         <?php
-        echo $food->getPrice();
+        print_r($food->getPrice());
         ?>
     <p>
         <?php
-        echo $animal->getheight();
+        print_r($animal->getHeight());
         ?>
     </p>
 
