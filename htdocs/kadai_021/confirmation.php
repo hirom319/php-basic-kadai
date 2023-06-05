@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>21章課題</title>
@@ -11,6 +12,5 @@
     <p>性別：<?php echo $_POST['gender']; ?></p>
     <p>メールアドレス：<?php echo $_POST['email']; ?></p>
 </body>
-
 
 </html>
