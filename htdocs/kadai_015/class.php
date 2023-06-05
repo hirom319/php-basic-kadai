@@ -9,8 +9,12 @@ class Food {
     }
 }
 
+?>
+
+<?php
+
 $food = new Food('potato', 250);
-print_r($food) . '<br>';
+print_r($food);
 
 class Animal {
     private $name;
