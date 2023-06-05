@@ -22,14 +22,13 @@
         }
 
         ?>
+
+        $food = new Food('potato', 250);
+        print_r($food);
     </p>
 
     <p>
         <?php
-
-        $food = new Food('potato', 250);
-        print_r($food);
-
         class Animal
         {
             private $name;
