@@ -9,14 +9,25 @@
 <body>
     <h2>個人情報入力フォーム</h2>
     <form action="confirmation.php" method="post">
-        <label for="name">お名前</label>
-        <input type="text" id="name"><br>
-        <label for="gender">性別</label>
-        <input type="radio" id="gender"><br>
-        <label for="email">メールアドレス</label>
-        <input type="text" id="email"><br>
-        <label for="submit">送信</label>
-        <input type="submit" value="送信"><br>
+        <table>
+            <tr>
+                <td>お名前</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td><input type="radio" name="gender" value="male">男性</td>
+                <td><input type="radio" name="gender" value="female">女性</td>
+            </tr>
+            <tr>
+                <td>メールアドレス</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>送信</td>
+                <td><input type="submit" value="送信"></td>
+            </tr>
+        </table>
     </form>
 </body>
 
