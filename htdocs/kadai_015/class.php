@@ -1,34 +1,52 @@
-<?php 
-class Food {
-    private $name;
-    private $price;
+<!DOCTYPE html>
+<html lang="ja">
 
-    public function __construct(string $name, int $price) {
-        $this->name = $name;
-        $this->price = $price;
-    }
-}
+<head>
+    <meta charset="UTF-8">
+    <title>15章課題</title>
+</head>
 
-?>
+<body>
+    <p>
+        <?php
+        class Food
+        {
+            private $name;
+            private $price;
 
-<?php
+            public function __construct(string $name, int $price)
+            {
+                $this->name = $name;
+                $this->price = $price;
+            }
+        }
 
-$food = new Food('potato', 250);
-print_r($food);
+        ?>
+    </p>
 
-class Animal {
-    private $name;
-    private $height;
-    private $weight;
+    <p>
+        <?php
 
-    public function __construct(string $name, int $height, int $weight) {
-        $this->name = $name;
-        $this->height = $height;
-        $this->weight = $weight;
-    }
-}
+        $food = new Food('potato', 250);
+        print_r($food);
 
-    $animal = new Animal('dog', 60, 5000);
-    print_r($animal);
+        class Animal
+        {
+            private $name;
+            private $height;
+            private $weight;
 
-?>
+            public function __construct(string $name, int $height, int $weight)
+            {
+                $this->name = $name;
+                $this->height = $height;
+                $this->weight = $weight;
+            }
+        }
+
+        $animal = new Animal('dog', 60, 5000);
+        print_r($animal);
+
+        ?>
+    </p>
+</body>
