@@ -20,7 +20,7 @@
                 $this->price = $price;
             }
 
-            public function getPrice()
+            public function show_price()
             {
                 return $this->price;
             }
@@ -46,7 +46,7 @@
                 $this->weight = $weight;
             }
 
-            public function getHeight()
+            public function show_height()
             {
                 return $this->height;
             }
@@ -59,11 +59,11 @@
 
     <p>
         <?php
-        print_r($food->getPrice());
+        print_r($food->show_price());
         ?>
     <p>
         <?php
-        print_r($animal->getHeight());
+        print_r($animal->show_height());
         ?>
     </p>
 
