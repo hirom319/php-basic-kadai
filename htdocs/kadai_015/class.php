@@ -59,11 +59,15 @@
         ?>
     </p>
 
-
-    <?php
-    echo $food->getPrice();
-    echo $animal->getheight();
-    ?>
+    <p>
+        <?php
+        echo $food->getPrice();
+        ?>
+    <p>
+        <?php
+        echo $animal->getheight();
+        ?>
+    </p>
 
 
 </body>
